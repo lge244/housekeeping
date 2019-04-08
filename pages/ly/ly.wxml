@@ -1,0 +1,4 @@
+<view class='top-view'>
+<buttom class="top on" bindtap='start'>开始</buttom>
+<buttom class="top" bindtap='stop'>停止</buttom>
+</view>

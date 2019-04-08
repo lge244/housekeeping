@@ -1,0 +1,6 @@
+<view class='bottom' wx:for="{{list}}" wx:key="" bindtap="goProduct" data-id="{{item.productId}}">
+   <view class='left'><image src='image/repair.png' class='tb'></image><text class='wxiu'>{{item.productName}}</text><image   src='image/home-right.png' class='home-right'></image></view>
+   <view class='right'><image src='image/house-moving.png' class='tb'></image><text class='wxiu'>{{item.typeName}}</text><image   src='image/home-right.png' class='home-right'></image></view>
+</view>
+
+

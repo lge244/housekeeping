@@ -1,0 +1,94 @@
+.header{
+width:100%;
+height:96rpx;
+background:#37B76B;
+display: flex;
+flex: 2;
+}
+.text{
+font-size:36rpx;
+color: #fff;
+line-height:96rpx;
+margin-left: 270rpx;
+}
+.fhui{
+width: 20rpx;
+height: 40rpx;
+margin-left: 20rpx;
+margin-top: 28rpx;
+}
+.lrxm{
+width:100%;
+height: 90rpx;
+background: #fff;
+margin-top:6rpx; 
+}
+.lrxm-one{
+position: absolute;
+}
+.one-a1{
+position: relative;
+top: -20rpx;
+font-size: 38rpx;
+color: #000; 
+}
+.gren{
+width:70rpx;
+height:70rpx;
+margin:0 20rpx;
+margin-top:10rpx;
+}
+.home-right{
+width: 30rpx;
+height: 50rpx;
+float: right;
+position:absolute;
+top: 20rpx;
+left: 680rpx;
+}
+.xxms{
+width:100%;
+height: 450rpx;
+background: #fff;
+margin-top:6rpx;
+padding-top: 20rpx;
+}
+.text-one{
+font-size: 40rpx;
+color: #000;
+margin-left: 40rpx; 
+display: flex;
+}
+.bottom{
+margin-top:70rpx;
+position: relative;
+}
+.bottom-left{
+background: #666666;
+width: 200rpx;
+height: 70rpx;
+position: absolute;
+top:30rpx;
+left: 130rpx;
+border-radius: 10rpx; 
+}
+.bottom-right{
+background: #40B26E;
+width: 200rpx;
+height: 70rpx; 
+position: absolute;
+top:30rpx;
+left:390rpx;
+border-radius: 10rpx; 
+}
+.qx{
+font-size: 40rpx;
+text-align: center;
+line-height: 60rpx;
+color: #fff;
+margin-left: 60rpx;
+}
+.radio-group{
+margin-left:656rpx;
+margin-top: -72rpx; 
+}

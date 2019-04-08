@@ -1,0 +1,10 @@
+<scroll-view  scroll-y="true" bindscrolltolower="onList" style="height:{{min_height}}px;">
+<view class='bottom' wx:for="{{list}}"  wx:key="" bindtap="goDetails" data-id="{{item.id}}">
+  <text class='text-a1'>老人姓名：{{item.customerName}}\n</text>
+  <text class='text-a1'>工号单：{{item.orderNum}}\n</text>
+  <text class='text-a1'>状态：待服务\n</text><text class='text-one'>543公里\n</text><image src='image/home-right.png' class='tp'></image>
+  <text class='text-a1'>{{item.serveproductName}} \n</text>
+</view  >
+</scroll-view>
+
+

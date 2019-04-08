@@ -1,0 +1,63 @@
+.header{
+  width:100%;
+  height:96rpx;
+  background:#37B76B;
+  text-align: center;
+}
+.text{
+  font-size:36rpx;
+  color: #fff;
+  line-height:96rpx;
+}
+.bottom{
+  width: 100%;
+  background:#f0f0f0;
+}
+.a1{
+  width:350rpx;
+  height:150rpx;
+  margin:80rpx 220rpx;
+}
+.tp{
+  width:50rpx;
+  height: 50rpx;
+}
+.a1-center{
+  margin: 0 auto;
+  width:70%;
+}
+.b1-top{
+  display: flex;
+  border-bottom: 2rpx solid #9A9A9A; 
+  margin-top: 20rpx;
+}
+.sjh{
+  margin-left:30rpx;
+}
+.a1-bottom{
+  width:90%;
+  margin:150rpx auto;
+}
+.ljdl{
+  background:#37B76B;
+  height: 90rpx;
+  text-align: center;
+  line-height:90rpx;
+}
+.ljdl-one{
+  color:#fff;
+  font-size: 30rpx;
+  background: #34B76B;
+  height: 90rpx;
+}
+.wjmm{
+  background:#B8B8B8;
+  height: 90rpx;
+  text-align: center;
+  line-height:90rpx;
+  margin-top:50rpx; 
+}
+.wjmm-one{
+  color:#fff;
+  font-size: 30rpx;
+}

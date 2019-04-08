@@ -1,0 +1,53 @@
+<navigator url='../lrxx/lrxx'>
+  <view class='lrxm'>
+    <view class='lrxm-one'>
+      <image src='image/个人.png' class='gren'></image>
+      <text class='one-a1'>老人姓名</text>
+      <image src='image/home-right.png' class='home-right' ></image>
+    </view>
+  </view>
+</navigator>
+<navigator url='../fwlx/fwlx'>
+  <view class='lrxm'>
+    <view class='lrxm-one'>
+      <image src='image/个人.png' class='gren'></image>
+      <text class='one-a1'>服务类型</text>
+      <image src='image/home-right.png' class='home-right'></image>
+    </view>
+  </view>
+</navigator>
+  <view class='lrxm' bindtap="hint">
+    <view class='lrxm-one'>
+      <image src='image/个人.png' class='gren'></image>
+      <text class='one-a1'>服务产品</text>
+      <image src='image/home-right.png' class='home-right'></image>
+    </view>
+  </view>
+<view class='lrxm'>
+<view class='lrxm-one'>
+<image src='image/个人.png' class='gren'></image>
+<text class='one-a1'>是否有服务人员陪同</text>
+<radio-group class="radio-group" >
+<label class="radio">
+<radio value="0" checked="" checked="{{radioCheck}}" bindtap="radioChange" />
+</label>
+</radio-group>
+</view>
+</view>
+<view class='xxms'>
+ <text class='text-one'>信息描述:\n</text>
+  <text class='text-one'>老人姓名：{{old_man_info.name}}\n</text>
+  <text class='text-one'>老人电话：{{old_man_info.phone}}\n</text>
+  <text class='text-one'>服务类型:{{kind.typeName}}\n</text>
+  <text class='text-one'>服务产品:{{product.productName}}\n</text>
+  <text class='text-one'>老人地址:{{old_man_info.address}}\n</text>
+  <text class='text-one' wx:if="{{radio_val}}" >是否有服务人员陪同:{{radio_val}}</text>
+</view>
+<view class='bottom'>
+  <view class='bottom-left' bindtap="back">
+    <text class='qx'>取消</text>
+  </view>
+  <view class='bottom-right' bindtap="submit">
+    <text class='qx'>确定</text>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<view class="header">
+  <text class='sye'>商业</text><text class='tchu'>退出</text>
+</view>
+<view>
+  <image src='image/001.png' class='zp'></image>
+</view>
+<view class='center'>
+  <navigator url='../dfwu/dfwu'>
+    <view class='center-right'>
+      <image src='image/pending-service-sheet.png' class='xjgd'></image>
+      <text class='xjgd-one'>待服务单</text>
+    </view>
+  </navigator>
+  <view class='center-left'>
+    <image src='image/service-single.png' class='xjgd'></image>
+    <text class='xjgd-one'>服务单中</text>
+  </view>
+  <view class='center-bottom'>
+    <image src='image/finished-sheet.png' class='xjgd'></image>
+    <text class='xjgd-one'>已完成单</text>
+  </view>
+</view>

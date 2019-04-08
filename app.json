@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/homepage/homepage",
+    "pages/kehu/kehu",
+    "pages/laorenxinxi/laorenxinxi",
+    "pages/xjgd/xjgd",
+    "pages/business/business",
+    "pages/dfwu/dfwu",
+    "pages/fwzrw/fwzrw",
+    "pages/khddxq/khddxq",
+    "pages/ddxq/ddxq",
+    "pages/fwcp/fwcp",
+    "pages/fwlx/fwlx",
+    "pages/lrxx/lrxx",
+    "pages/xzkh/xzkh",
+    "pages/ywcd/ywcd",
+    "pages/jksj/jksj",
+    "pages/sczp/sczp",
+    "pages/upload_img/upload_img",
+    "pages/ly/ly"
+      
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "禾康阿姨",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/homepage/homepage",
+        "iconPath":"pages/image/home-page.png",
+        "selectedIconPath":"pages/image/home-page-Select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/business/business",
+        "iconPath": "pages/image/business.png",
+        "selectedIconPath": "pages/image/business-Select.png",
+        "text": "商业"
+      },
+      {
+        "pagePath": "pages/kehu/kehu",
+        "iconPath": "pages/image/customer.png",
+        "selectedIconPath": "pages/image/customer-Select.png",
+        "text": "客户"
+      },
+      {
+        "pagePath": "pages/homepage/homepage",
+        "iconPath": "pages/image/22_07.png",
+        "selectedIconPath": "pages/image/22_07.png",
+        "text": "人脸识别"
+      }
+    ]
+  }
+  
+}

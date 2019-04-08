@@ -1,0 +1,50 @@
+.header{
+  width:100%;
+  height:96rpx;
+  background:#37B76B;
+  display: flex;
+  flex: 2;
+}
+.text{
+  font-size:36rpx;
+  color: #fff;
+  line-height:96rpx;
+  margin-left: 270rpx;
+}
+.fhui{
+  width: 20rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+  margin-top: 28rpx;
+}
+.bottom{
+  width: 100%;
+  height: 300rpx;
+  background:#fff;
+}
+.text-a1{
+  font-size: 40rpx;
+  color: #000;
+  line-height: 76rpx;
+  margin-left: 20rpx;
+}
+.text-one{
+  float: right;
+  font-size: 36rpx;
+  color: #4CB773;
+  margin-top: 20rpx;
+  margin-right:60rpx;
+}
+.tp{
+  width: 20rpx;
+  height: 30rpx;
+  float: right;
+  margin-top: 20rpx;
+  margin-right: -160rpx;
+}
+.bottom-top{
+  width: 100%;
+  height: 300rpx;
+  background:#fff;
+  margin-top: 20rpx;
+}

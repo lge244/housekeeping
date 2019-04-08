@@ -1,0 +1,8 @@
+
+<view class='bottom' wx:for="{{list}}" wx:key="" bindtap="goDetails" data-id="{{item.id}}">
+  <view class='one'>
+    <image src='image/repair.png' class='zjie'></image><text class='text-one'>{{item.typeName}}</text>
+    <image src='image/home-right.png' class='home-right'></image>
+  </view>
+</view>
+

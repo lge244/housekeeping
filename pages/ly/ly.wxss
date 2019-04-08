@@ -1,0 +1,18 @@
+
+.top-view{
+  width: 100%
+}
+.top{
+background: #ADADAD;
+  color: #fff;
+ width: 100%;
+ display: inline-block;
+ margin-top: 50rpx;
+ padding: 15rpx 0;
+  text-align: center;
+  border-radius: 10rpx;
+}
+
+.on{
+   background: #34B76B;
+}

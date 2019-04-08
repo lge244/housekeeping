@@ -1,0 +1,59 @@
+<view class='header'>
+  <navigator url='../dfwu/dfwu'>
+    <image class='fhui' src='image/home-left.png'></image>
+  </navigator>
+  <text class='text'>订单详情</text>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/01.png' class='zjie'></image><text class='text-one'>{{list.serveproductName}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/11.png' class='zjie'></image><text class='text-one'>{{list.customerName}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/04.png' class='zjie'></image><text class='text-one'>{{list.customerphone}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/03.png' class='zjie'></image><text class='text-one'>{{list.community}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/12.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/02.png' class='zjie'></image>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/05.png' class='zjie'></image><text class='text-one'>30分59秒</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/06.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/09.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/10.png' class='zjie'></image><text class='text-one'>待服务</text>
+  </view>
+</view>
+<view class='bottom-bottom' bindtap="work"  data-id="{{list.id}}">
+  <view class='qd'><text class='ksgz'>开始工作</text></view>
+</view>

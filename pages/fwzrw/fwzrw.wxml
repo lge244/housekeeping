@@ -1,0 +1,56 @@
+
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/01.png' class='zjie'></image><text class='text-one'>{{list.serveproductName}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/11.png' class='zjie'></image><text class='text-one'>{{list.customerName}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/04.png' class='zjie'></image><text class='text-one'>{{list.customerphone}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/03.png' class='zjie'></image><text class='text-one'>{{list.community}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/12.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/02.png' class='zjie'></image>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/05.png' class='zjie'></image><text class='text-one'>30分59秒</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/06.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/09.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/10.png' class='zjie'></image><text class='text-one'>执行中</text>
+  </view>
+</view>
+<view class='bottom-bottom' bindtap="over"  data-id="{{list.id}}">
+  <view class='qd'><text class='ksgz'>结束工作</text></view>
+</view>
+
+

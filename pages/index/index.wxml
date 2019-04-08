@@ -1,0 +1,24 @@
+<view class='header'>
+  <text class='text'>登录</text>
+</view>
+<form bindsubmit="back_houtai">
+<view class='bottom'>
+  <view class='a1-top'><image class='a1' src='image/1.png' ></image></view>  
+  <view  class='a1-center' >
+    <view class='b1-top'>
+     <image src='image/3.png' class='tp'></image><input type="text" class='sjh' placeholder='请输入手机号'  name="phone"></input>
+    </view>
+    <view class='b1-top'>
+         <image src='image/2.png' class='tp'></image><input type="password" class='sjh' placeholder='请输入密码' name="password" ></input>
+    </view>
+  </view >
+  <view class='a1-bottom'>
+    <view class='ljdl'>
+      <button  class='ljdl-one'  bindtap="login" formType="submit">立即登录</button>
+    </view>
+    <view class='wjmm'>
+      <text class='wjmm-one'>忘记密码</text>
+    </view>
+  </view>
+</view>
+</form>

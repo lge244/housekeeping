@@ -1,0 +1,8 @@
+<view style='width:100%; text-align: center;'>
+<form bindsubmit="back_houtai">
+<view class='bottom-bottom'  bindtap="uploadpic">
+     <view class='ui_uploader' bindtap='uploadimg' ><button  class="button_sub" >图片上传</button></view>
+   <image src="{{source}}"></image>
+</view>
+</form>
+</view>

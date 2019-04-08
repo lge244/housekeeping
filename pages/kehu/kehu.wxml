@@ -1,0 +1,59 @@
+<view class='header'>
+  <text class='cs'>城市</text>
+  <text class='text'>我的客户</text>
+  <navigator url='../xzkh/xzkh'><text class='xzlr'>新增老人</text></navigator>
+  </view>
+  <view class='pxu'>
+    <view class='pxu-one'><text class='pxu-px'>排序</text></view>
+  </view>
+  <navigator url='../khddxq/khddxq'>
+    <view class='khu'>
+      <view class='khu-one'>
+        <view class='khu-left'><image src='image/tp.png' class='khu-tp'></image></view>
+        <view class='khu-right'>
+          <view class='xm'><text>姓名：单晶\n</text></view>
+          <view class='hz'><text clss='xm'>合作：23\n</text></view>
+          <view class='lxfs'>
+            <text clss='lxfs'>联系方式：12345689546</text><view class='gl'><text>765公里</text><image src='image/right.png' class='right'></image></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+  <view class='khu'>
+    <view class='khu-one'>
+      <view class='khu-left'><image src='image/tp.png' class='khu-tp'></image></view>
+      <view class='khu-right'>
+        <view class='xm'><text>姓名：单晶\n</text></view>
+        <view class='hz'><text clss='xm'>合作：23\n</text></view>
+        <view class='lxfs'>
+          <text clss='lxfs'>联系方式：12345689546</text><view class='gl'><text>765公里</text><image src='image/right.png' class='right'></image></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='khu'>
+    <view class='khu-one'>
+      <view class='khu-left'><image src='image/tp.png' class='khu-tp'></image></view>
+      <view class='khu-right'>
+        <view class='xm'><text>姓名：单晶\n</text></view>
+        <view class='hz'><text clss='xm'>合作：23\n</text></view>
+        <view class='lxfs'>
+          <text clss='lxfs'>联系方式：12345689546</text><view class='gl'><text>765公里</text><image src='image/right.png' class='right'></image></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='khu'>
+    <view class='khu-one'>
+      <view class='khu-left'><image src='image/tp.png' class='khu-tp'></image></view>
+      <view class='khu-right'>
+        <view class='xm'><text>姓名：单晶\n</text></view>
+        <view class='hz'><text clss='xm'>合作：23\n</text></view>
+        <view class='lxfs'>
+          <text clss='lxfs'>联系方式：12345689546</text><view class='gl'><text>765公里</text><image src='image/right.png' class='right'></image></view>
+        </view>
+      </view>
+    </view>
+  </view>
+

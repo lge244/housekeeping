@@ -1,0 +1,16 @@
+<form bindsubmit="health">
+<view class="top">
+  <text class='text'>血压(高</text><input class='input' name="pressureLow"></input><text class='text-text'>kpa</text>
+</view>
+<view class="top">
+  <text class='text'>血压(低</text><input class='input' name="pressureHigh" ></input><text class='text-text'>kpa</text>
+</view>
+<view class="top">
+  <text class='text'>血糖</text><input class='input-left' name="sugarPlasma"></input><text class='text-text'>mmo/1</text>
+</view>
+<view class="top">
+  <text class='text'>心率</text><input class='input-left' name="sugarEmpty"></input><text class='text-text2'>bqm</text>
+</view>
+<input hidden='true' name="servicePgdId" value="{{id}}"></input>
+ <button class='bottom'  bindtap="ensure"  formType="submit">确定</button>
+</form>

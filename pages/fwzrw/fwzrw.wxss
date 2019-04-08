@@ -1,0 +1,75 @@
+.header{
+  width:100%;
+  height:96rpx;
+  background:#37B76B;
+  display: flex;
+  flex: 2;
+}
+.text{
+  font-size:36rpx;
+  color: #fff;
+  line-height:96rpx;
+  margin-left: 270rpx;
+}
+.fhui{
+  width: 20rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+  margin-top: 28rpx;
+}
+.one{
+  margin-left:30rpx;
+
+}
+.bottom{
+  width: 100%;
+  background: #FFF;
+  margin-top: 4rpx;
+}
+.zjie{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 10rpx;
+}
+.text-one{
+  margin-left: 10rpx;
+}
+.bottom-bottom{
+  width:100%;
+  height: 190rpx;
+  background: #fff;
+  margin-top: 6rpx;
+  position: relative;
+}
+.qd{
+  width: 240rpx;
+  height:70rpx;
+  background: #37B76B;
+  position: absolute;
+  top: 50rpx;
+  left: 280rpx;
+  border-radius: 6rpx;
+}
+.ksgz{
+  font-size:40rpx;
+  line-height:70rpx;
+  color: #fff;
+  margin-left:40rpx;
+  
+}
+
+.bottom-2{
+widows: 100%;
+}
+.bottom-bottom-2{
+margin-top: 200rpx;
+margin-left: 300rpx;
+}
+.zw{
+width:160rpx;
+height:160rpx;
+}
+zwsj{
+font-size: 40rpx;
+color:#ABACB0;
+}

@@ -1,0 +1,14 @@
+<view class='center'>
+    <view class='srk'>
+      <input placeholder='输入查询的关键字'/>
+      <image src='image/search.png' class='fdj'></image>
+    </view>
+</view>
+<scroll-view scroll-y="true" bindscrolltolower="onList" style="height:{{min_height}}px;">
+  <view class='bottom' wx:for="{{list}}" wx:key="" bindtap="goDetails" data-id="{{item.id}}">
+    <text class='text-a1'>老人姓名：{{item.name}}\n</text>
+    <text class='text-a1'>手机：{{item.phone}}\n</text>
+    <text class='text-a1'>地址：{{item.currentAddress}}</text>
+  </view >
+</scroll-view>
+

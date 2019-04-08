@@ -1,0 +1,68 @@
+<view class='header'>
+  <navigator url='../dfwu/dfwu'>
+    <image class='fhui' src='image/home-left.png'></image>
+  </navigator>
+  <text class='text'>订单详情</text>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/01.png' class='zjie'></image><text class='text-one'>{{list.serveproductName}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/11.png' class='zjie'></image><text class='text-one'>{{list.customerName}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/04.png' class='zjie'></image><text class='text-one'>{{list.customerphone}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/03.png' class='zjie'></image><text class='text-one'>{{list.community}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/12.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom' style='height:100rpx;'>
+  <view class='one'>
+    <image src='image/123123.png' class='zjie'></image>
+     <image src='{{list.picFinished}}' class='pic_cont'></image>
+     <image src='{{list.picStart}}' class='pic_cont'></image>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/02.png' class='zjie'></image>
+    <text class='text-one'>{{list.timeStart}} </text>
+    <text class='text-one'>{{list.timeEnd}}</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/05.png' class='zjie'></image><text class='text-one'>{{days}}天{{hours}}时{{mins}}分</text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/06.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/09.png' class='zjie'></image><text class='text-one'></text>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='one'>
+    <image src='image/10.png' class='zjie'></image><text class='text-one'>已完成</text>
+  </view>
+</view>
+<view class='bottom-bottom'>
+ 
+</view>
