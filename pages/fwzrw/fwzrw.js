@@ -8,7 +8,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list: []
+    list: [],
+    count:0
   },
 
   /**
@@ -22,6 +23,7 @@ Page({
     if(e.content.count!=0){
       list_val = e.content.list[0]
       this.setData({
+        count: e.content.count,
         list: list_val
       });
     }

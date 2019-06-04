@@ -1,4 +1,4 @@
-var requestUrl = "http://www.hk952183.com:48089/njhk-wisdom-datasys-web-api";
+var requestUrl = "https://www.hk952183.com:58443/njhk-wisdom-datasys-web-api";
 function post(url, data, fun, that) {
   if (url == 'undefined') {
     return false;

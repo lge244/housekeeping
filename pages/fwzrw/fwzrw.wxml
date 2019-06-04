@@ -1,4 +1,4 @@
-
+<view wx:if="{{count > 0}}">
 <view class='bottom'>
   <view class='one'>
     <image src='image/01.png' class='zjie'></image><text class='text-one'>{{list.serveproductName}}</text>
@@ -52,5 +52,13 @@
 <view class='bottom-bottom' bindtap="over"  data-id="{{list.id}}">
   <view class='qd'><text class='ksgz'>结束工作</text></view>
 </view>
+</view>
 
-
+<view wx:if="{{count == 0}}">
+<view class='bottom2'>
+   <view class='bottom2-bottom'>
+    <image src='image/empty-data.png' class='zw2'></image>
+    <view ><text class='zwsj2'>暂无数据</text></view>
+   </view>
+</view>
+</view>

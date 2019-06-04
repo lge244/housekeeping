@@ -36,7 +36,8 @@ Page({
         var tempFilePaths = res.tempFilePaths
         console.log(servicePgdId)
         wx.uploadFile({
-          url: 'http://www.hk952183.com:48089/njhk-wisdom-datasys-web-api/ApiservicePgd/info/over',
+          url: 
+          'https://www.hk952183.com:58443/njhk-wisdom-datasys-web-api/ApiservicePgd/info/over',
           filePath: tempFilePaths[0],
           name: 'file',
           header: {

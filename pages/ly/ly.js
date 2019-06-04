@@ -46,7 +46,7 @@ Page({
       this.tempFilePath = res.tempFilePath;
       console.log('停止录音', res.tempFilePath)
       wx.uploadFile({
-        url: 'http://www.hk952183.com:48089/njhk-wisdom-datasys-web-api/ApiservicePgd/info/overMC',
+        url: 'https://www.hk952183.com:58443/njhk-wisdom-datasys-web-api/ApiservicePgd/info/overMC',
         filePath: res.tempFilePath,
         name: 'file',
         header: {
